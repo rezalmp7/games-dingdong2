@@ -108,7 +108,7 @@ html, body
 #game-dingdong #bottom .to
 {
     background-color: #643E02;
-    border-radius: 1.2vw;
+    border-radius: 0.6vw;
     border: 2px solid #623B02;
     color: white;
     font-size: 1.5vw;
@@ -134,7 +134,7 @@ html, body
 #game-dingdong #last .to
 {
     background-color: #643E02;
-    border-radius: 1.2vw;
+    border-radius: 1vw;
     border: 2px solid #623B02;
     color: white;
     transition: all 0.5s ease;
