@@ -1,0 +1,163 @@
+html, body
+{
+    background-image: url('../img/tekstur-kayu-2.jpg');
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.container-fluid
+{
+    /* margin-top: -150px; */
+    /* margin-left: 115px; */
+    perspective: 500px;
+    -webkit-perspective: 500px;
+    padding: 0;
+    margin: 0;
+}
+#game-dingdong
+{
+    transform: rotateX(5deg);
+	/* transform-origin: 50% 50% 0px; */
+    aspect-ratio: 5 / 3;
+    margin: 0px auto;
+    background-color: #814F03;
+    box-shadow:20px 20px 50px 20px #654000 inset;
+    
+}
+#game-dingdong>div
+{   
+    padding: 3.4vw;
+    margin: 0;
+    height: 100%;
+}
+#game-dingdong>div>div
+{
+}
+#game-dingdong .numbers>div
+{
+    padding: 0.2vw;
+}
+#game-dingdong .numbers .number
+{
+    background-color: #643E02;
+    border-radius: 1.2vw;
+    border: 2px solid #623B02;
+    aspect-ratio: 1/1;
+    padding: 0.4vw;
+
+    transition: all 0.5s ease;
+}
+#game-dingdong .numbers .number:hover
+{
+    aspect-ratio: 1/1;
+    background-color: #a76700;
+    border-radius: 20px;
+    border: 2px solid #623B02;
+}
+#game-dingdong .numbers .number .circle
+{
+    aspect-ratio: 1 / 1;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 2.0vw;
+    padding: 0.6vw;
+}
+#game-dingdong .numbers .number:hover .circle
+{
+    aspect-ratio: 1 / 1;
+    background-color: #9b1113;
+    color: white;
+    font-weight: 700;
+}
+#game-dingdong .numbers .number .circle.active
+{
+    aspect-ratio: 1 / 1;
+    background-color: #EC1F24;
+    color: white;
+}
+#game-dingdong .right-bar
+{
+    height: 100%;
+    padding: 0.2vw;
+}
+#game-dingdong .right-bar>div
+{
+    height: 100%;
+}
+#game-dingdong .right-bar .to
+{
+    background-color: #643E02;
+    border-radius: 1.2vw;
+    border: 2px solid #623B02;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 700;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+#game-dingdong .right-bar .to:hover
+{
+    background-color: #7d4d00;
+    border: 2px solid #623B02;
+}
+#game-dingdong #bottom>div
+{
+    padding: 0.2vw;
+}
+#game-dingdong #bottom .to
+{
+    background-color: #643E02;
+    border-radius: 1.2vw;
+    border: 2px solid #623B02;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+#game-dingdong #bottom .to:hover
+{
+    background-color: #7d4d00;
+    border: 2px solid #623B02;
+}
+#game-dingdong #last
+{
+    height: 4vw;
+    height: 100%;
+}
+#game-dingdong #last>div
+{
+    padding: 0.2vw;
+    margin: 0;
+    height: 100%;
+}
+#game-dingdong #last .to
+{
+    background-color: #643E02;
+    border-radius: 1.2vw;
+    border: 2px solid #623B02;
+    color: white;
+    transition: all 0.5s ease;
+    padding: 0.4vw;
+}
+#game-dingdong #last .to.small
+{
+    font-size: 1vw;
+    margin-bottom: 1.2vw;
+    font-weight: 700;
+}
+#game-dingdong #last .to:hover
+{
+    background-color: #7d4d00;
+    border: 2px solid #623B02;
+}
+#game-dingdong #last .to.large
+{
+    font-size: 1.9vw;
+    font-weight: 700;
+}
+#game-dingdong #last .to>img
+{
+    width: 100%;
+    height: 2.9vw;
+}
